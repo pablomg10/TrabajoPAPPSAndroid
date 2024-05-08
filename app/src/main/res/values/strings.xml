@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TrabajoPAPPSAndroid_PabloMartinGil_HectorMadrigalSanchez</string>
+    <string-array name="city_names">
+        <item>Salamanca</item>
+        <item>Segovia</item>
+        <item>León</item>
+        <!-- Agrega más ciudades aquí según sea necesario -->
+    </string-array>
 </resources>

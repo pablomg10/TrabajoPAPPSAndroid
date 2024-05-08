@@ -1,0 +1,40 @@
+<!-- Layout para el menú de opciones de cada ciudad -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewRestaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurantes"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textViewAttractions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sitios de interés"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/textViewAccommodations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alojamientos"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</LinearLayout>
